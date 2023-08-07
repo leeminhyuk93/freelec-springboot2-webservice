@@ -32,5 +32,6 @@ public class PostsApiController {
     public Long delete(@PathVariable Long id) {
         postsService.delete(id);
         return id;
+//        ㅇㅇㅇㅇ
     }
 }
